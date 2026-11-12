@@ -1,0 +1,19 @@
+Bước 1: Phân tích và chỉ ra điểm sai
+Alan Turing:
+Hiện trường giả ghi sai: Sinh năm 1941, phát minh ra ngôn ngữ lập trình C và hệ điều hành Unix.
+Thông tin chính xác 100%: Sinh năm 1912 (ngày 23/6/1912).
+Phát minh thực tế: Đề xuất mô hình Máy Turing (nền tảng lý thuyết cho khoa học máy tính hiện đại), 
+đóng vai trò then chốt trong việc bẻ khóa mật mã Enigma của Đức Quốc xã trong Thế chiến II, và đề xuất Phép thử Turing định hình lĩnh vực Trí tuệ nhân tạo (AI).
+Dennis Ritchie:
+Hiện trường giả ghi sai: Sinh năm 1912, phát minh ra máy Turing lập trình toán học cổ điển.
+Thông tin chính xác 100%: Sinh năm 1941 (ngày 9/9/1941).
+Phát minh thực tế: Đồng sáng tạo ngôn ngữ lập trình C và đồng phát triển hệ điều hành Unix, tạo nền tảng cốt lõi cho hầu hết hệ thống phần mềm và hệ điều hành hiện đại.
+Bước 2: Thiết kế Prompt thng minh chặn lỗi
+Vai trò: Bạn là một chuyên gia lịch sử công nghệ và biên tập viên cấp cao có độ chính xác tuyệt đối (fact-checker).
+Nhiệm vụ Viết một bài viết ngắn gọn, chuẩn xác để đăng lên trang tin tức công nghệ của trường về hai nhân vật đặt nền móng cho ngành máy tính: Alan Turing và Dennis Ritchie.
+Quy tắc àng buộc bắt buộc (Strict Rules):
+1. Xác thực dữ liệu lịch sử: Bắt buộc sử dụng đúng năm sinh thực tế (Alan Turing sinh năm 1912; Dennis Ritchie sinh năm 1941) và gán đúng các phát minh tương ứng của từng người.
+TUYỆT ĐỐI không được hoán đổi thông tin, ngày tháng hay công trình khoa học giữa hai nhân vật.
+2. Cơ chế kiểm chứng và từ chối: Nếu bạn không chắc chắn về bất kỳ dữ liệu kỹ thuật hay mốc thời gian nào, hãy dừng lại và trả lời rõ ràng: 
+"Tôi không có đủ dữ liệu chính xác để trả lời." Không được phép tự suy đoán hoặc sáng tạo dữ liệu giả (ảo giác).
+3. Văn phong: Khách quan, trang trọng, chính xác và phù hợp để đăng bản tin học đường.
