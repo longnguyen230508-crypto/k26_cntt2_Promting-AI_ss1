@@ -1,0 +1,8 @@
+Phần 1: Phân tích cơ chế BPE
+Cơ chế BPE: Không đếm theo từ nguyên vẹn mà tách văn bản thành các đơn vị nhỏ hơn (sub-word units) dựa trên tần suất dữ liệu huấn luyện.
+Lý do Mẫu B tốn gấp 2.4 lần Mẫu A:
+Ký tự có dấu: Tiếng Việt nhiều dấu thanh (sắc, hỏi, ngã...) và nguyên âm mũ (â, ê, ư...). Các ký tự này không có sẵn nguyên khối trong bộ từ vựng của AI nên bị tách thành nhiều mảnh byte nhỏ.
+Dữ liệu huấn luyện ít: Tiếng Việt chiếm tỷ lệ nhỏ trong tập Pre-training so với tiếng Anh, buộc BPE chia nhỏ từ vựng tiếng Việt thay vì gom cụm tối ưu (2.85 Tokens/từ so với 1.18 của tiếng Anh).
+Phần 2: 2 Kỹ thuật tối ưu Prompt Tiếng Việt (Tiết kiệm 30-40% Token)
+Dùng từ khóa tiếng Anh chuyên ngành: Giữ nguyên các thuật ngữ kỹ thuật bằng tiếng Anh thay vì dịch sang tiếng Việt có dấu dài dòng để tận dụng bộ mã hóa tối ưu của tiếng Anh.
+Viết tối giản, loại bỏ từ thừa: Bỏ toàn bộ câu xã giao ("Xin hãy", "Vui lòng", "Giúp tôi"), chuyển sang câu mệnh lệnh trực tiếp kết hợp gạch đầu dòng (Bullet points).
