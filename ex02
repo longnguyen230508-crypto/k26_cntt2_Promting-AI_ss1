@@ -1,0 +1,18 @@
+1. Code đã làm sạch và bảo mật
+Python
+import os
+
+# Đọc thông tin nhạy cảm từ biến môi trường hệ thống thay vì viết cứng (hardcode)
+db_password = os.getenv('DB_PASSWORD')
+api_key = os.getenv('API_KEY')
+
+def connect_database():
+if not db_password or not api_key:
+        print("Lỗi: Thiếu thông tin bảo mật trong biến môi trường!")
+        return
+    print("Đang kết nối an toàn...")
+2. Mẫu Prompt an toàn gửi AI
+Plaintext
+Hãy tối ưu đoạn code sau. Lưu ý: Các thông tin nhạy cảm đã được thay thế bằng biến môi trường, tuyệt đối không hỏi xin giá trị thực tế của chúng:
+
+[DÁN CODE SẠCH Ở ĐÂY]
