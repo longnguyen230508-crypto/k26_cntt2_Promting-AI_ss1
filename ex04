@@ -1,0 +1,9 @@
+ Phần 1: 2 Vi phạm nghiêm trọng
+1. Bỏ qua cơ chế "Human-in-the-Loop" (Con người kiểm soát):
+Ký quyết định sa thải ngay lập tức mà không thẩm định, trao quyền sinh sát nhân sự cho AI (vốn chỉ là công cụ gợi ý, không có thẩm quyền pháp lý).
+2. Né tránh trách nhiệm giải trình (Accountability) & Rò rỉ dữ liệu:
+Đổ lỗi hoàn toàn cho AI để trốn tránh trách nhiệm cá nhân, đồng thời vi phạm bảo mật khi dán trực tiếp dữ liệu nhân sự nội bộ lên hệ thống AI công cộng.
+ Phần 2: Sơ đồ luồng 3 bước chuẩn an toàn tại MartX
+1. Bước 1 Nhập liệu & AI đề xuất: Ẩn danh dữ liệu KPI/chấm công $\rightarrow$ AI tổng hợp chỉ số và xuất danh sách cảnh báo kèm dẫn chứng số liệu (chỉ mang tính tham khảo).
+2. Bước 2 Human-in-the-Loop thẩm định: Trưởng phòng trực tiếp đối chiếu hồ sơ thực tế, kiểm tra sai lệch (ảo giác AI), xem xét hoàn cảnh cá nhân và trao đổi trực tiếp với nhân sự.
+3. Bước 3 Ký quyết định chính thức: Con người chịu trách nhiệm 100% đưa ra phương án xử lý cuối cùng (nhắc nhở, đào tạo lại hoặc sa thải đúng luật lao động).
